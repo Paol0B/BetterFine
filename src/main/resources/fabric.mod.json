@@ -1,0 +1,16 @@
+{
+	"schemaVersion": 1,
+	"id": "betterfine",
+	"version": "${version}",
+	"name": "BetterFine",
+	"description": "Precise zoom on C for long-range bow aiming.",
+	"environment": "client",
+	"mixins": [
+		"betterfine.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25"
+	}
+}
